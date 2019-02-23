@@ -1,0 +1,58 @@
+@import './../../../assets/scss/variables.scss';
+.main-content{
+    margin-bottom: 150px;
+}
+.jumbotron {
+    background-image: url("./../../../assets/images/bedroom.jpg");
+    background-size: cover;
+}
+
+.jumbotron .container {
+    height: 500px;
+}
+
+.splash-text-wrapper {
+    color: $color-white;
+}
+
+.heading {
+    font-family: $font-family-header;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 26px 0;
+    font-size: 36px;
+    font-weight: 600;
+    span {
+        border-bottom: 2px solid #000;
+        padding-bottom: 15px;
+    }
+}
+
+
+
+.bold {
+    font-weight: bold;
+} //trust
+.badge-wrapper {
+    padding: 30px 20px;
+    .icon-trust {
+        margin-bottom: 10px;
+        font-size: 70px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .icon-heading {
+        margin-top: 5px;
+        font-weight: bold;
+        font-family: $font-family-header;
+        text-transform: uppercase;
+        font-size: 20px;
+
+    }
+}
+
+.featured-properties-image-wrapper {
+    .featured-properties-image {}
+}

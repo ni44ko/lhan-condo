@@ -1,0 +1,11 @@
+<nav class="navbar navbar-top">
+  <div class="navbar-brand rounded-circle"><span class="brand2$">lhan</span><span class="brand1$">properties</span></div>
+  <div class="menu-items-wrapper pull-right">
+    <ul class="menu-list-items list-inline ">
+      <li class="list-inline-item"><i class="fas fa-home i-house"></i><a href="#" [class.active]="activeLink === 1" (click)="linkClick(1)">home</a></li>
+      <li class="list-inline-item"><i class="far fa-building i-property"></i><a  [class.active]="activeLink === 2" (click)="linkClick(2)">properties</a></li>
+      <li class="list-inline-item"><i class="fas fa-users i-about"></i><a  [class.active]="activeLink === 3" (click)="linkClick(3)">about</a></li>
+      <li class="list-inline-item"><i class="fas fa-phone i-contact"></i><a  [class.active]="activeLink === 4" (click)="openContactComponent()">contact</a></li>
+    </ul>
+  </div>
+</nav>
