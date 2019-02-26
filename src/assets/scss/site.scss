@@ -19,37 +19,3 @@ body {
     background-color: $color-gray;
     border: 1px solid $color-border
 }
-
-carousel img {
-    height: 650px;
-}
-
-@media (min-width: 1px) and (max-width: 767.98px) {
-    carousel img {
-        height: 450px;
-    }
-}
-
-@media (min-width: 1200px) {
-    // .container {
-    //     max-width: 1200px;
-    // }
-}
-
-@media (min-width: 992px) {
-    // .container {
-    //     max-width: 960px;
-    // }
-}
-
-@media (min-width: 768px) {
-    // .container {
-    //     max-width: 720px;
-    // }
-}
-
-@media (min-width: 576px) {
-    // .container {
-    //     max-width: 540px;
-    // }
-}
