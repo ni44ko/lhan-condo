@@ -1,3 +1,4 @@
+import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -16,11 +17,13 @@ import { ContactComponent } from './feature/contact/contact.component';
     ContactComponent
   ],
   imports: [
+    CoreModule,
     BrowserModule,
     AppRoutingModule,
     SharedModule,
     CarouselModule.forRoot(),
-    ModalModule .forRoot()
+    ModalModule .forRoot(),
+    
 
   ],
   entryComponents: [ContactComponent],

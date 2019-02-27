@@ -1,12 +1,8 @@
 @import './../../assets/scss/variables.scss';
-html,
-body {
- 
-}
 
 body {
     font-family: $font-family;
-    color: #4F4F4F;
+    color: $text-color-body;
 }
 
 //align text vertically
@@ -16,6 +12,6 @@ body {
 }
 
 .placeholder {
-    background-color: $color-gray;
+    background-color: $text-color-gray;
     border: 1px solid $color-border
 }

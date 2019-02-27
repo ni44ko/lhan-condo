@@ -3,11 +3,11 @@ import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 import { ContactComponent } from 'src/app/feature/contact/contact.component';
 
 @Component({
-  selector: 'app-top-navbar',
-  templateUrl: './top-navbar.component.html',
-  styleUrls: ['./top-navbar.component.scss']
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss']
 })
-export class TopNavbarComponent implements OnInit {
+export class HeaderComponent implements OnInit {
   activeLink: number = 1;
   bsModalRef: BsModalRef;
   
