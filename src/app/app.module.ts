@@ -23,8 +23,6 @@ import { ContactComponent } from './feature/contact/contact.component';
     SharedModule,
     CarouselModule.forRoot(),
     ModalModule .forRoot(),
-    
-
   ],
   entryComponents: [ContactComponent],
   providers: [],
